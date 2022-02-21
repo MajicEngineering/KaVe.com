@@ -1,2 +1,0 @@
-# KaVe.com
- kvartovska stranica
