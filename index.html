@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ka Ve</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/lightbox.min.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/images/kv.jpg" alt="">
+        <p class="name"></p>
+        <nav>
+            <a href="">Članovi</a>
+            <a href="">Granica KV-a</a>
+            <a href="">Klupica info</a>
+            <a href="">Usluge</a>
+            <a href="">Kafići</a>
+            <a href="">O nama</a>
+            <a href="">Posao</a>
+            <a href="">Kontakt</a>
+        </nav>
+        <button id="hamburger"><img src="assets/images/hamburger.jpg" id = "hamburgerSlika" alt=""></button>
+    </header>
+    <div class="mob=nav" id="mob-nav">
+        <a href="">Ponuda</a>
+        <a href="">Lokacije</a>
+        <a href="">MyMcdonald's</a>
+        <a href="">McDelivery</a>
+    </div>
+    <div style = "background-color:#b6b6b6; display: flex;">
+        <button id="prevBtn"> <img src="assets/images/512px-Eo_circle_yellow_arrow-up-right.svg.png" alt=""> </button>
+        <div class="slide-container">
+            <div name = "slide-holder" class="slide-holder">
+                <img id="slika1" class="slika" src="assets/images/lok33.jpg" alt="">
+                <img id="slika2" class="slika" src="assets/images/klupaaaaaaaaaaaaaaaa.jpg" alt="">
+            </div>
+        </div>
+        <button id="nextBtn"> <img src="assets/images/512px-Eo_circle_yellow_arrow-up-right.svg.png" alt=""> </button>
+    </div>
+    <div class="parallaxEf">
+        <p id="parallaxMain">KV!</p>
+        
+    </div>
+    
+
+    
+    <p class="lokacije">Članovi:</p>
+    <p class="lokacije-2"></p>
+
+    <div class="gallery">
+        <div>
+            <a href="assets/images/tip4.jpg" data-lightbox="myGal" data-title="Masivni Mateo"><img src="assets/images/tip4.jpg" alt=""></a>
+            <p>Masivni Mateo</p>
+        </div>
+        <div>
+            <a href="assets/images/tip1.jpg" data-lightbox="myGal" data-title="Masivni Niksi"><img src="assets/images/tip1.jpg" alt=""></a>
+            <p>Masivni Niksi</p>
+        </div>
+        <div>
+            <a href="assets/images/tip2.jpg" data-lightbox="myGal" data-title="Masivni Marin"><img src="assets/images/tip2.jpg" alt=""></a>
+            <p>Masivni Marin</p>
+        </div>
+        <div>
+            <a href="assets/images/tip3.jpg" data-lightbox="myGal" data-title="Masivni Rossi"><img src="assets/images/tip3.jpg" alt=""></a>
+            <p>Masivni Rossi</p>
+        </div>
+    </div>
+
+    <div class="parallax-fixed">
+
+    </div>
+
+    <div class="onama">
+        <p id="onama-title" >O nama</p>
+        <p class="onama-podnaslov">Mi smo masivni momci koji dolaze iz jugoistočnog dijela grada Splita, točnije iz KaVe-a. Iza nas su mnoga brojna dobra djela (kao na primjer "investicija" što se tiče klupe). Ka Ve činu 5 budala, a to su: Masivni Mateo, Masivni Niksi, Masivni Marin, Masivni Rossi i Toni Radanović. Jebali smo vam mater!
+        </p>
+        <p class="onama-podnaslov">Naša uspješna masivnost nas je dovela do:</p>
+        <div class="cards-box">
+            <div class="card">
+                <p class="numb-card">1</p>
+                <p class="txt-card">Kvart</p>
+            </div>
+            <div class="card">
+                <p class="numb-card">1</p>
+                <p class="txt-card">Klupica</p>
+            </div>
+            <div class="card">
+                <p class="numb-card">0</p>
+                <p class="txt-card">Dućana</p>
+            </div>
+            <div class="card">
+                <p class="numb-card">5</p>
+                <p class="txt-card">Budala</p>
+            </div>   
+        </div>
+    </div>
+
+    <div>
+        <p id="onama-title">Učlani se u Kvart!</p>
+    </div>
+
+    <div class="stepper">
+        <form id="form1">
+            <p class="stepperNaslov">Osobni podaci</p>
+            <input type="text" placeholder="Ime" required>
+            <input type="text" placeholder="Prezime" required>
+            <input type="text" placeholder="Email" required>
+            <div class="btnBox">
+                <button type="button" id = "btn12">Dalje</button>
+            </div>
+        </form>
+        <form id="form2">
+            <p class="stepperNaslov">Za KaVe, šta?</p>
+            <textarea cols="35" rows="5" required></textarea>
+            <div class="btnBox">
+                <button type="button" id="btn21">Nazad</button>
+                <button type="button" id="btnSend">Pošalji</button>
+            </div>
+        </form>
+        <form id="form3">
+            <p class="stepperNaslov">Vaša poruka je poslana. Naši članovi će Vam odgovoriti u najkraćem roku!</p>
+        </form>
+    </div>
+
+    <footer>
+        <img class="logo" src="assets/images/kv.jpg" alt="">
+        <a href="https://kreten.si/" target="_blank"><img class="icon" src="assets/images/facebook-512.png" alt=""></a>
+        <a href="https://kreten.si/" target="_blank"><img class="icon" src="assets/images/Instagram.png" alt=""></a>
+        <a href="https://kreten.si/" target="_blank"><img class="icon" src="assets/images/yt.PNG" alt=""></a>
+        <p class="footer-text" >KaVe © 2021.</p>
+    </footer>
+</body>
+<script src="assets/script.js"></script>
+<script src="assets/lightbox-plus-jquery.min.js"></script>
+</html>
